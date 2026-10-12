@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">@color/color0403</color>
+    <color name="colorOnPrimary">@color/color0401</color>
+    <color name="colorSecondary">@color/color0404</color>
+    <color name="colorOnSecondary">@color/color0402</color>
+
+    <color name="colorPrimaryDark">#0F4C75</color>
+
+    <color name="colorPrimarySuperLight">#2d2e28</color>
+    <color name="colorPrimaryUltraLight">#1e2019</color>
+
+    <color name="backgroundApp">#F6F6F6</color>
+
+    <color name="colorAccent">#F9E897</color>
+    <color name="lineGraphic">#808080</color>
+    <!-- -->
+    <color name="color0101">#121C31</color>
+    <color name="color0102">#3282b8</color>
+    <color name="color0103">#BBE1FA</color>
+    <color name="color0104">#BBE1FA</color>
+
+    <color name="color0201">#0B698B</color>
+    <color name="color0202">#0396A6</color>
+    <color name="color0203">#9CD3D8</color>
+    <color name="color0204">#F2F2F2</color>
+
+    <color name="color0301">#EAB875</color>
+    <color name="color0302">#7BC5C1</color>
+    <color name="color0303">#E1C7A5</color>
+    <color name="color0304">#D3E3E2</color>
+
+    <color name="color0401">#FF6D00</color>
+    <color name="color0402">#FF9201</color>
+    <color name="color0403">#FFAB41</color>
+    <color name="color0404">#FFD181</color>
+
+    <color name="color0501">#2D8D79</color>
+    <color name="color0502">#8FC79A</color>
+    <color name="color0503">#5E9387</color>
+    <color name="color0504">#CEE9B6</color>
+
+    <color name="color0601">#2E2F5B</color>
+    <color name="color0602">#505581</color>
+    <color name="color0603">#F4D35E</color>
+    <color name="color0604">#FAF0CA</color>
+
+    <color name="color0701">#004581</color>
+    <color name="color0702">#018ABD</color>
+    <color name="color0703">#97CBDC</color>
+    <color name="color0704">#DDE8F0</color>
+
+    <color name="color0801">#6B3E26</color>
+    <color name="color0802">#FFC5D9</color>
+    <color name="color0803">#C2F2D0</color>
+    <color name="color0804">#FDF5C9</color>
+
+    <color name="color0901">#718355</color>
+    <color name="color0902">#87866A</color>
+    <color name="color0903">#B5C99A</color>
+    <color name="color0904">#E9F5DB</color>
+
+    <color name="color1001">#A36361</color>
+    <color name="color1002">#D3A29D</color>
+    <color name="color1003">#E8B298</color>
+    <color name="color1004">#EECC8C</color>
+
+    <color name="color1101">#C8A8E9</color>
+    <color name="color1102">#E3AADD</color>
+    <color name="color1103">#F5BCBA</color>
+    <color name="color1104">#F3DCDC</color>
+    <!-- -->
+
+    <color name="colorPrimaryLight">#3282b8</color>
+    <color name="colorBackground">#1B262C</color>
+    <color name="colorCustomBlue">#121C31</color>
+
+    <!--<color name="colorAccent">#ffc107</color>-->
+
+    <color name="colorDarkGray">#303030</color>
+    <color name="colorLightGray">#d9d9d9</color>
+    <color name="colorGray">#d9d9d9</color>
+    <color name="colorStatusBarLight">#c2d8d7</color>
+
+    <color name="contentTextColor">#020000</color>
+    <color name="bottom_navigation_view_selected_color">@color/colorAccent</color>
+    <color name="colorStatusBar">#c2d8d7</color>
+
+    <color name="colorCustomWhite">#c2d8d7</color>
+
+    <color name="colorCustomInBalance">#008000</color>
+    <color name="colorCustomOutBalance">#800000</color>
+    <color name="colorCustomInitBalance">#808080</color>
+
+    <color name="md_theme_light_primary">#6750A4</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#EADDFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#21005D</color>
+    <color name="md_theme_light_error">#B3261E</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#F9DEDC</color>
+    <color name="md_theme_light_onErrorContainer">#410E0B</color>
+    <color name="md_theme_light_surface">#FFFBFE</color>
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+    <color name="md_theme_light_surfaceVariant">#E7E0EC</color>
+    <color name="md_theme_dark_primary">#D0BCFF</color>
+    <color name="md_theme_dark_onPrimary">#381E72</color>
+    <color name="md_theme_dark_primaryContainer">#4F378B</color>
+    <color name="md_theme_dark_onPrimaryContainer">#EADDFF</color>
+    <color name="md_theme_dark_secondary">#CCC2DC</color>
+    <color name="md_theme_dark_onSecondary">#332D41</color>
+    <color name="md_theme_dark_secondaryContainer">#4A4458</color>
+    <color name="md_theme_dark_onSurface">#E6E1E5</color>
+    <color name="md_theme_dark_surfaceVariant">#49454F</color>
+</resources>
+
+    <!--
+    edeef0
+    <color name="colorPrimary">#526D82</color>
+        <color name="colorPrimaryDark">#3282b8</color>
+        <color name="colorPrimaryLight">#27374D</color>
+        <color name="colorBackground">#edeef0</color>
+
+        <color name="colorPrimary">#BBE1FA</color>
+        <color name="colorPrimaryDark">#0F4C75</color>
+        <color name="colorPrimaryLight">#3282b8</color>
+        <color name="colorBackground">#edeef0</color>
+        <color name="colorCustomBlue">#121C31</color>
+    1B262C
+    -->

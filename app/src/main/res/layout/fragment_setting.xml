@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/padding_layout">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b_suggestions" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Enviar sugerencia anónima" />
+        <TextView
+            android:id="@+id/tv_daily_quota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b_daily_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver anuncio de prueba" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="18sp"
+            android:text="@string/title_setting_app"
+            android:textAllCaps="true"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/TextInputLayoutStyle"
+                android:layout_width="0dp"
+                android:hint="@string/title_currency"
+                app:boxStrokeWidthFocused="1dp"
+                android:layout_weight="42"
+                app:endIconMode="clear_text">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/tiet_setting_currency_form"
+                    style="@style/TextInputLayoutStyle"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="6"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/cb_setting_professional_version_form"
+            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/title_professional_version" />
+        <Button
+            android:id="@+id/button_setting_save_objective"
+            style="@style/ButtonGeneral2Style"
+            android:text="@string/title_save"
+            android:layout_marginTop="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="@string/title_preferences"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/title_language"/>
+        <RadioGroup
+            android:id="@+id/rg_setting_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_setting_language_spanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_spanish"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rb_setting_language_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_english"
+                android:allowClickWhenDisabled="true"/>
+        </RadioGroup>
+        <Switch
+            android:id="@+id/cb_setting_view_mode_dark_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_mode_dark"
+            android:layout_marginTop="15dp"
+            android:checked="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="@string/title_colors"/>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fillViewport="true">
+
+            <RadioGroup
+                android:id="@+id/rg_setting_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Opción 1 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_01"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0101"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0102" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0103" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0104" />
+                </LinearLayout>
+
+                <!-- Opción 2 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_02"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0201"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0202" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0203" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0204" />
+                </LinearLayout>
+
+                <!-- Opción 3 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_03"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0301"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0302" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0303" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0304" />
+                </LinearLayout>
+
+                <!-- Opción 4 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_04"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0401"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0402" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0403" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0404" />
+                </LinearLayout>
+
+                <!-- Opción 5 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_05"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0501"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0502" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0503" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0504" />
+                </LinearLayout>
+
+                <!-- Opción 6 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_06"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0601"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0602" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0603" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0604" />
+                </LinearLayout>
+
+                <!-- Opción 7 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_07"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0701"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0702" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0703" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0704" />
+                </LinearLayout>
+
+                <!-- Opción 8 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_08"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0801"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0802" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0803" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0804" />
+                </LinearLayout>
+
+                <!-- Opción 9 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_09"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0901"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0902" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0903" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color0904" />
+                </LinearLayout>
+
+                <!-- Opción 10 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_10"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color1001"/>
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color1002" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color1003" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background = "@color/color1004" />
+                </LinearLayout>
+
+                <!-- Opción 11 -->
+                <RadioButton
+                    android:id="@+id/rb_setting_color_11"
+                    style="@style/ColorItemStyle" />
+                <LinearLayout
+                    style="@style/ColorItemsContainerStyle">
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background="@color/color1101" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background="@color/color1102" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background="@color/color1103" />
+                    <TextView
+                        style="@style/ColorItemSquareStyle"
+                        android:background="@color/color1104" />
+                </LinearLayout>
+
+            </RadioGroup>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

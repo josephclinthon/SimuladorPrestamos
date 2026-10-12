@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157272434992",
+    "project_id": "simuladorprestamos-defa6",
+    "storage_bucket": "simuladorprestamos-defa6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157272434992:android:abf8a5803a1a97b48840f5",
+        "android_client_info": {
+          "package_name": "com.mocii.simuladorprestamos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF5eUO1vasqEhNEen3Ak1gKaokQZJHgp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

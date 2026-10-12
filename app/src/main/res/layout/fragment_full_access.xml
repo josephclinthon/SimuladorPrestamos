@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Activa Full por hoy" android:textSize="26sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:textSize="16sp"
+            android:text="Completa 3 anuncios para hacer simulaciones ilimitadas durante el resto del día. Los anuncios completados desde Simular también cuentan. El avance se reinicia a medianoche según la fecha del dispositivo." />
+        <TextView android:id="@+id/full_status" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="24dp"
+            android:textSize="20sp" android:textStyle="bold" android:accessibilityLiveRegion="polite" />
+        <ProgressBar android:id="@+id/full_progress" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginVertical="16dp" android:max="3" />
+        <TextView android:id="@+id/full_remaining" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:textSize="16sp" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/watch_full_ad"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" android:text="Ver anuncio 1 de 3" />
+        <ProgressBar android:id="@+id/full_loading" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" android:text="Solo cuentan los anuncios completados. Los banners no cuentan para activar Full." />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

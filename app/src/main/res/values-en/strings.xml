@@ -1,0 +1,313 @@
+<resources>
+
+    <string name="app_name">Loan Calculator</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+
+    <!-- App information -->
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_icon_description">App icon</string>
+
+    <!-- Company -->
+    <string name="company_name">MociiApps</string>
+    <string name="company_description">We are an app that is constantly growing. Every update comes from listening to our community, so every suggestion you send us helps us improve.</string>
+
+    <!-- Social media -->
+    <string name="section_follow_us">Follow us</string>
+    <string name="social_youtube">YouTube</string>
+    <string name="social_facebook">Facebook</string>
+    <string name="social_tiktok">TikTok</string>
+
+    <!-- Support -->
+    <string name="section_help_us">Help us improve</string>
+    <string name="contact_send_suggestion">Send suggestion</string>
+    <string name="contact_email">mocii.apps@gmail.com</string>
+    <string name="rate_play_store">Rate us on Play Store</string>
+    <string name="share_app">Share the app</string>
+
+    <!-- Footer -->
+    <string name="made_with_love">Made with 💙 by MociiApps</string>
+    <string name="about">About</string>
+
+    <!-- APP -->
+    <string name="title_11001">SIMULATE\nCREDITS</string>
+
+    <string name="title_form_11001">How much would you like to request?</string>
+    <string name="title_form_11002">How long? (Months)</string>
+    <string name="title_form_11004">At what rate (%)?</string>
+    <string name="title_form_11005">Insurance (%) (Optional)</string>
+
+    <string name="title_application_date">Application Date</string>
+    <string name="title_pay_day">Payment day</string>
+    <string name="title_simulate">Simulate</string>
+
+    <string name="title_request_date">Request Date</string>
+    <string name="title_loan_amount">Principal</string>
+    <string name="title_total_interest">Total Interest</string>
+    <string name="title_total_insurance">Total Insurance</string>
+    <string name="title_interest_rate">APR</string>
+    <string name="title_installment">Installment</string>
+    <string name="title_type">Type</string>
+    <string name="title_purchase">PURCHASE</string>
+
+    <string name="title_payment_date">Payment Date</string>
+    <string name="title_total_installment">Total Installment</string>
+    <string name="title_principal">Principal</string>
+    <string name="title_interest">Interest</string>
+    <string name="title_download">Download</string>
+
+    <string name="title_credit_simulator">Credit Simulator</string>
+    <string name="title_professional_version">Professional Version</string>
+    <string name="title_annual_base">Annual Base</string>
+    <string name="title_fixed_day">Fixed Day</string>
+    <string name="title_payment_date_type">Payment Date Type</string>
+    <string name="title_payment_day_type">Payment Day Type</string>
+    <string name="title_calendar_day">Calendar Day</string>
+    <string name="title_business_day">Business Day</string>
+    <!-- HOME -->
+
+    <string name="title_home">Home</string>
+    <string name="title_summary">Summary</string>
+    <string name="title_incomes">Incomes</string>
+    <string name="title_outcomes">Outcomes</string>
+    <string name="title_savings">Savings</string>
+    <string name="title_year">Year</string>
+    <string name="title_month">Month</string>
+    <string name="title_day">Day</string>
+    <string name="title_others">Others</string>
+    <string name="title_actions">Actions</string>
+    <string name="title_recent_purchases">Recent Purchases</string>
+
+
+    <string name="title_search">Search</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_meals">Meals</string>
+    <string name="title_meal">Meal</string>
+    <string name="title_list">List</string>
+    <string name="title_lists">Lists</string>
+    <string name="title_list_products">List of Products</string>
+    <string name="title_item">Item</string>
+    <string name="title_items">Items</string>
+    <string name="title_top">Top</string>
+    <string name="title_general">General</string>
+    <string name="title_import_export">Import/Export</string>
+    <string name="title_import">Import</string>
+    <string name="title_export">Export</string>
+    <string name="title_buys">Buys</string>
+    <string name="title_accounts">Accounts</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="title_default">Default</string>
+    <string name="title_colors">Colors</string>
+
+    <string name="title_user">User</string>
+    <string name="title_password">Password</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="title_remember_me">Remember Me</string>
+    <string name="title_start">Start</string>
+    <string name="title_value">Value</string>
+    <string name="title_select">Select</string>
+    <string name="title_amount">Amount</string>
+
+
+    <string name="title_01001">FORM\nTRANSFER</string>
+    <string name="title_02001">FORM\nBUY</string>
+    <string name="title_02002">FORM\nPRODUCT</string>
+    <string name="title_03001">FORM\nMEAL\nDAILY</string>
+    <string name="title_04001">FORM\nPAYMENT</string>
+
+    <string name="title_05001">FORM\nACCOUNT</string>
+    <string name="title_06001">REGISTRAR\nTRANSFE\nRENCIA</string>
+
+    <!-- GENERAL 00 -->
+
+    <string name="title_payment">Payment</string>
+    <string name="title_buy">Buy</string>
+    <string name="title_transfer">Transfer</string>
+
+    <string name="title_share">Share</string>
+    <string name="title_descriptions">Descriptions</string>
+    <string name="title_help">Help</string>
+    <string name="title_out">Out</string>
+
+    <string name="title_description">Description</string>
+    <string name="title_hour">Hour</string>
+    <string name="title_date">Date</string>
+    <string name="title_detail">Detail</string>
+    <string name="title_last">Last</string>
+    <string name="title_withdrawal">Withdrawal</string>
+    <string name="title_payments">Payments</string>
+
+    <!-- GENERAL 01 -->
+
+    <string name="title_accounting_item">Accounting Item</string>
+    <string name="title_default_accounting_item">Default Accounting Item</string>
+    <string name="title_category">Category</string>
+    <string name="title_account">Account</string>
+    <string name="title_default_account">Default Account</string>
+    <string name="title_start_app">Start APP</string>
+    <string name="title_welcome_to">Welcome to</string>
+    <string name="title_period">Period</string>
+    <string name="title_place">Place</string>
+    <string name="title_code">Code</string>
+    <string name="title_total">Total</string>
+
+    <string name="title_concept">Concept</string>
+    <string name="title_quantity">Quantity</string>
+    <string name="title_measurement_unit">Measurement Unit</string>
+    <string name="title_price">Price</string>
+    <string name="title_product">Product</string>
+    <string name="title_register_buy">Register Buy</string>
+    <string name="title_generate_buy">Generate Buy</string>
+
+    <string name="title_share_buy">Share Buy</string>
+    <string name="title_share_buy_json">Share Buy JSON</string>
+
+    <string name="title_do_copy">Do Copy</string>
+
+    <string name="title_fast_buy">Fast</string>
+    <string name="title_search_here">Search Here!!</string>
+
+    <string name="title_breakfast">Breakfast</string>
+    <string name="title_lunch">Lunch</string>
+    <string name="title_dinner">Dinner</string>
+
+    <!-- GENERAL 02 -->
+
+    <string name="title_setting_app">Setting APP</string>
+    <string name="text_spanish">Spanish</string>
+    <string name="text_english">English</string>
+
+    <string name="title_currency">Currency</string>
+    <string name="title_language">Language</string>
+    <string name="title_mode_dark">Mode Dark</string>
+    <string name="title_preferences">Preferences</string>
+    <string name="title_view_all_accounts">View all accounts</string>
+    <string name="title_save">Save</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_update">Update</string>
+    <string name="title_unconfirm">Unconfirm</string>
+    <string name="title_init_app">Init APP</string>
+    <string name="title_import_buy_json">Import Buy JSON</string>
+    <string name="title_import_buy">Import Buy</string>
+    <string name="title_delete_existing_data">Delete existing data</string>
+
+    <string name="text_01001">To start with all the functionalities press the START button.</string>
+    <string name="text_01002">To confirm your balance (payments, credits and transfers) press the CONFIRM button.</string>
+    <string name="text_01003">To confirm your balance (payments, credits and transfers) and be able to modify it, press the UNCONFIRM button.</string>
+    <string name="text_01004">To delete all APP data.</string>
+    <!-- GENERAL 03 -->
+
+    <string name="title_owner">Owner</string>
+    <string name="title_name">Name</string>
+    <string name="title_sub_name">Sub Name</string>
+    <string name="title_balance">Balance</string>
+    <string name="title_origin_account">Origin Account</string>
+    <string name="title_destine_account">Destine Account</string>
+    <string name="title_origin">Origin</string>
+    <string name="title_confirm">Confirm</string>
+    <string name="title_continue">Continue</string>
+    <string name="title_register">Register</string>
+    <string name="title_filter">Filter</string>
+    <string name="title_init">Init</string>
+    <string name="title_is_checking_account">Is checking account</string>
+    <string name="title_register_and_go_to_add_items">Register and to go Items</string>
+
+    <string name="title_from">From</string>
+    <string name="title_to">To</string>
+    <string name="title_graphics">Graphics</string>
+    <!-- GENERAL 04 -->
+
+    <string name="title_view_balance">View Balance</string>
+    <string name="title_no_view_balance">No View Balance</string>
+
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="watchads">Watch Ads</string>
+
+    <string name="title_activity_buy">BuyActivity</string>
+    <string name="title_activity_local_main">LocalMainActivity</string>
+    <string name="title_activity_basic">BasicActivity</string>
+
+    <string name="runtime_pattern_single">%s hour and %s minutes</string>
+    <string name="runtime_pattern_multiple">%s hours and %s minutes</string>
+    <string name="votes_pattern">%s votes</string>
+    <string name="revenue_pattern" translatable="false">%s mill.</string>
+    <string name="movie_row_desc_pattern" translatable="false">%s\u0020\u0020&#8226;\u0020\u0020%s</string>
+    <string name="visit_website_url_pattern" translatable="false"><![CDATA[<a href="%s">%s</a>]]></string>
+    <string name="error_message_pattern">Error: %s</string>
+
+    <!-- GENERAL 05 -->
+    <string name="title_categories">Categories</string>
+    <string name="title_money_origins">Origins of Money</string>
+    <string name="title_measurements">Measurements</string>
+    <string name="title_accounting_items">Accounting Items</string>
+    <string name="title_products">Products</string>
+    <string name="title_places">Places</string>
+    <string name="title_by">By</string>
+
+    <string name="text_02001">Mocii Home helps you create your shopping list, register it as a purchase, and automatically get the balance of your accounts.</string>
+    <string name="text_02002">FEATURES:</string>
+    <string name="text_02003">- Plan your daily meals for the week.</string>
+    <string name="text_02004">- Register your purchases in detail, so you dont forget anything while shopping.</string>
+    <string name="text_02005">- Generate a copy of your purchases, as we know they often repeat.</string>
+    <string name="text_02006">- Register transactions such as payments or transfers.</string>
+    <string name="text_02007">- Get your FINANCIAL BALANCE automatically.</string>
+    <string name="text_02008">- Generate statistical charts with your most expensive products.</string>
+    <string name="text_02009">- Search for previously registered products.</string>
+    <string name="text_02010">FREQUENTLY ASKED QUESTIONS:</string>
+    <string name="text_02011">Where can I get help in the APP?</string>
+    <string name="text_02012">To read this help, press the three dots in the upper-right corner and select Help on the main screen.</string>
+    <string name="text_02013">Where can I get more information about the APP?</string>
+    <string name="text_02014">For more details on the functionality, visit @MociiHome on YouTube.</string>
+    <string name="text_02015">How do I register a purchase?</string>
+    <string name="text_02016">First, register a purchase, then tap on it to add products.</string>
+    <string name="text_02017">How do I edit or delete an item?</string>
+    <string name="text_02018">To edit or delete an item (purchase, transaction, etc.), press and hold the item.</string>
+    <string name="text_02019">How do I register my shopping list as a purchase?</string>
+    <string name="text_02020">After creating your shopping list, you can register it as a purchase and affect your accounts. Press and hold the registered product.</string>
+    <string name="text_02021">Why are there two numbers displayed in INCOME and EXPENSES?</string>
+    <string name="text_02022">On the home screen, the larger number represents confirmed purchases and transactions for the month, while the smaller number shows unconfirmed purchases and transactions.</string>
+</resources>

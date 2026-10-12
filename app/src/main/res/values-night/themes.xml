@@ -1,0 +1,460 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorCustomWhite</item>
+
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/colorCustomWhite</item>
+
+        <item name="colorPrimaryDark">@color/colorBackground</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorPrimaryDark">?attr/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/backgroundApp</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/backgroundApp</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- 🔥 IMPORTANTES PARA FAB -->
+        <item name="colorPrimaryContainer">@color/colorSecondary</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnSecondary</item>
+    </style>
+
+    <style name="AppThemeFullScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorPrimaryDark">?attr/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowBackground">@color/backgroundApp</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!-- 🔥 IMPORTANTES PARA FAB -->
+        <item name="colorPrimaryContainer">@color/colorSecondary</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnSecondary</item>
+
+    </style>
+    <!-- 01 -->
+    <style name="AppTheme01" parent="AppTheme">
+        <item name="colorPrimary">@color/color0102</item>
+        <item name="colorOnPrimary">@color/color0104</item>
+        <item name="colorSecondary">@color/color0103</item>
+        <item name="colorOnSecondary">@color/color0101</item>
+        <item name="colorPrimaryContainer">@color/color0103</item>
+        <item name="colorOnPrimaryContainer">@color/color0101</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme01FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0102</item>
+        <item name="colorOnPrimary">@color/color0104</item>
+        <item name="colorSecondary">@color/color0103</item>
+        <item name="colorOnSecondary">@color/color0101</item>
+        <item name="colorPrimaryContainer">@color/color0103</item>
+        <item name="colorOnPrimaryContainer">@color/color0101</item>
+    </style>
+
+    <!-- 02 -->
+    <style name="AppTheme02" parent="AppTheme">
+        <item name="colorPrimary">@color/color0201</item>
+        <item name="colorOnPrimary">@color/color0203</item>
+        <item name="colorSecondary">@color/color0202</item>
+        <item name="colorOnSecondary">@color/color0204</item>
+        <item name="colorPrimaryContainer">@color/color0202</item>
+        <item name="colorOnPrimaryContainer">@color/color0204</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme02FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0201</item>
+        <item name="colorOnPrimary">@color/color0203</item>
+        <item name="colorSecondary">@color/color0202</item>
+        <item name="colorOnSecondary">@color/color0204</item>
+        <item name="colorPrimaryContainer">@color/color0202</item>
+        <item name="colorOnPrimaryContainer">@color/color0204</item>
+    </style>
+
+    <!-- 03 -->
+    <style name="AppTheme03" parent="AppTheme">
+        <item name="colorPrimary">@color/color0302</item>
+        <item name="colorOnPrimary">@color/color0303</item>
+        <item name="colorSecondary">@color/color0301</item>
+        <item name="colorOnSecondary">@color/color0304</item>
+        <item name="colorPrimaryContainer">@color/color0301</item>
+        <item name="colorOnPrimaryContainer">@color/color0304</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme03FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0302</item>
+        <item name="colorOnPrimary">@color/color0303</item>
+        <item name="colorSecondary">@color/color0301</item>
+        <item name="colorOnSecondary">@color/color0304</item>
+        <item name="colorPrimaryContainer">@color/color0301</item>
+        <item name="colorOnPrimaryContainer">@color/color0304</item>
+    </style>
+
+    <!-- 04 -->
+    <style name="AppTheme04" parent="AppTheme">
+        <item name="colorPrimary">@color/color0402</item>
+        <item name="colorOnPrimary">@color/color0403</item>
+        <item name="colorSecondary">@color/color0401</item>
+        <item name="colorOnSecondary">@color/color0404</item>
+        <item name="colorPrimaryContainer">@color/color0401</item>
+        <item name="colorOnPrimaryContainer">@color/color0404</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme04FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0402</item>
+        <item name="colorOnPrimary">@color/color0403</item>
+        <item name="colorSecondary">@color/color0401</item>
+        <item name="colorOnSecondary">@color/color0404</item>
+        <item name="colorPrimaryContainer">@color/color0401</item>
+        <item name="colorOnPrimaryContainer">@color/color0404</item>
+    </style>
+
+    <!-- 05 -->
+    <style name="AppTheme05" parent="AppTheme">
+        <item name="colorPrimary">@color/color0502</item>
+        <item name="colorOnPrimary">@color/color0503</item>
+        <item name="colorSecondary">@color/color0501</item>
+        <item name="colorOnSecondary">@color/color0504</item>
+        <item name="colorPrimaryContainer">@color/color0501</item>
+        <item name="colorOnPrimaryContainer">@color/color0504</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme05FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0502</item>
+        <item name="colorOnPrimary">@color/color0503</item>
+        <item name="colorSecondary">@color/color0501</item>
+        <item name="colorOnSecondary">@color/color0504</item>
+        <item name="colorPrimaryContainer">@color/color0501</item>
+        <item name="colorOnPrimaryContainer">@color/color0504</item>
+    </style>
+
+    <!-- 06 -->
+    <style name="AppTheme06" parent="AppTheme">
+        <item name="colorPrimary">@color/color0602</item>
+        <item name="colorOnPrimary">@color/color0603</item>
+        <item name="colorSecondary">@color/color0601</item>
+        <item name="colorOnSecondary">@color/color0604</item>
+        <item name="colorPrimaryContainer">@color/color0601</item>
+        <item name="colorOnPrimaryContainer">@color/color0604</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme06FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0602</item>
+        <item name="colorOnPrimary">@color/color0603</item>
+        <item name="colorSecondary">@color/color0601</item>
+        <item name="colorOnSecondary">@color/color0604</item>
+        <item name="colorPrimaryContainer">@color/color0601</item>
+        <item name="colorOnPrimaryContainer">@color/color0604</item>
+    </style>
+
+    <!-- 07 -->
+    <style name="AppTheme07" parent="AppTheme">
+        <item name="colorPrimary">@color/color0702</item>
+        <item name="colorOnPrimary">@color/color0703</item>
+        <item name="colorSecondary">@color/color0701</item>
+        <item name="colorOnSecondary">@color/color0704</item>
+        <item name="colorPrimaryContainer">@color/color0701</item>
+        <item name="colorOnPrimaryContainer">@color/color0704</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme07FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0702</item>
+        <item name="colorOnPrimary">@color/color0703</item>
+        <item name="colorSecondary">@color/color0701</item>
+        <item name="colorOnSecondary">@color/color0704</item>
+        <item name="colorPrimaryContainer">@color/color0701</item>
+        <item name="colorOnPrimaryContainer">@color/color0704</item>
+    </style>
+
+    <!-- 08 -->
+    <style name="AppTheme08" parent="AppTheme">
+        <item name="colorPrimary">@color/color0802</item>
+        <item name="colorOnPrimary">@color/color0801</item>
+        <item name="colorSecondary">@color/color0804</item>
+        <item name="colorOnSecondary">@color/color0801</item>
+        <item name="colorPrimaryContainer">@color/color0804</item>
+        <item name="colorOnPrimaryContainer">@color/color0801</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme08FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0802</item>
+        <item name="colorOnPrimary">@color/color0801</item>
+        <item name="colorSecondary">@color/color0804</item>
+        <item name="colorOnSecondary">@color/color0801</item>
+        <item name="colorPrimaryContainer">@color/color0804</item>
+        <item name="colorOnPrimaryContainer">@color/color0801</item>
+    </style>
+
+    <!-- 09 -->
+    <style name="AppTheme09" parent="AppTheme">
+        <item name="colorPrimary">@color/color0902</item>
+        <item name="colorOnPrimary">@color/color0903</item>
+        <item name="colorSecondary">@color/color0901</item>
+        <item name="colorOnSecondary">@color/color0904</item>
+        <item name="colorPrimaryContainer">@color/color0901</item>
+        <item name="colorOnPrimaryContainer">@color/color0904</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme09FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color0902</item>
+        <item name="colorOnPrimary">@color/color0903</item>
+        <item name="colorSecondary">@color/color0901</item>
+        <item name="colorOnSecondary">@color/color0904</item>
+        <item name="colorPrimaryContainer">@color/color0901</item>
+        <item name="colorOnPrimaryContainer">@color/color0904</item>
+    </style>
+
+    <!-- 10 -->
+    <style name="AppTheme10" parent="AppTheme">
+        <item name="colorPrimary">@color/color1002</item>
+        <item name="colorOnPrimary">@color/color1003</item>
+        <item name="colorSecondary">@color/color1001</item>
+        <item name="colorOnSecondary">@color/color1004</item>
+        <item name="colorPrimaryContainer">@color/color1001</item>
+        <item name="colorOnPrimaryContainer">@color/color1004</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme10FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color1002</item>
+        <item name="colorOnPrimary">@color/color1003</item>
+        <item name="colorSecondary">@color/color1001</item>
+        <item name="colorOnSecondary">@color/color1004</item>
+        <item name="colorPrimaryContainer">@color/color1001</item>
+        <item name="colorOnPrimaryContainer">@color/color1004</item>
+    </style>
+
+    <!-- 11 -->
+    <style name="AppTheme11" parent="AppTheme">
+        <item name="colorPrimary">@color/color1101</item>
+        <item name="colorOnPrimary">@color/color1103</item>
+        <item name="colorSecondary">@color/color1102</item>
+        <item name="colorOnSecondary">@color/color1104</item>
+        <item name="colorPrimaryContainer">@color/color1102</item>
+        <item name="colorOnPrimaryContainer">@color/color1104</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="AppTheme11FullScreen" parent="AppThemeFullScreen">
+        <item name="colorPrimary">@color/color1101</item>
+        <item name="colorOnPrimary">@color/color1103</item>
+        <item name="colorSecondary">@color/color1102</item>
+        <item name="colorOnSecondary">@color/color1104</item>
+        <item name="colorPrimaryContainer">@color/color1102</item>
+        <item name="colorOnPrimaryContainer">@color/color1104</item>
+    </style>
+    <style name="Base.Theme.SimuladorPrestamos" parent="AppTheme">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>
+
+
+
+
+
+
+    <!--<item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorBackground</item>
+    <item name="colorAccent">@color/colorPrimaryDark</item>
+    <item name="android:windowBackground">@color/colorBackground</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    <item name="colorOnPrimary">@color/colorPrimary</item>
+    <item name="colorOnSecondary">@color/colorPrimary</item>
+    <item name="colorSecondary">@color/colorPrimaryLight</item>-->
+
+    <!--<style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorOnPrimary">@color/colorOnPrimary</item>
+                <item name="colorSecondary">@color/colorSecondary</item>
+                <item name="colorOnSecondary">@color/colorOnSecondary</item>
+                <item name="colorPrimaryDark">@android:color/black</item>
+                <item name="colorAccent">@color/colorAccent</item>
+
+                <item name="android:windowBackground">@android:color/black</item>
+                <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            </style>
+            <style name="AppThemeFullScreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorOnPrimary">@color/colorOnPrimary</item>
+                <item name="colorSecondary">@color/colorSecondary</item>
+                <item name="colorOnSecondary">@color/colorOnSecondary</item>
+                <item name="colorPrimaryDark">@color/colorBackground</item>
+                <item name="colorAccent">@color/colorAccent</item>
+                <item name="android:windowBackground">@color/backgroundApp</item>
+                <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+                <item name="windowActionBar">false</item>
+                <item name="windowNoTitle">true</item>
+                <item name="android:statusBarColor">@android:color/transparent</item>
+            </style>
+
+            <style name="AppThemeBlue" parent="AppTheme">
+                <item name="colorPrimary">@color/color0702</item>
+                <item name="colorOnPrimary">@color/color0703</item>
+                <item name="colorSecondary">@color/color0701</item>
+                <item name="colorOnSecondary">@color/color0704</item>
+            </style>
+            <style name="AppThemeFullScreenBlue" parent="AppThemeFullScreen">
+                <item name="colorPrimary">@color/color0702</item>
+                <item name="colorOnPrimary">@color/color0703</item>
+                <item name="colorSecondary">@color/color0701</item>
+                <item name="colorOnSecondary">@color/color0704</item>
+            </style>
+
+
+            <style name="AppTheme.Launcher" parent="AppTheme">
+                <item name="android:statusBarColor">@android:color/transparent</item>
+                <item name="android:navigationBarColor">@color/colorPrimary</item>
+                <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+                <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+                <item name="android:windowBackground">@drawable/bg_splash_screen</item>
+            </style>
+            <style name="Custom.Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
+                <item name="maxButtonHeight">48dp</item>
+                <item name="android:paddingLeft">10dp</item>
+                <item name="android:paddingRight">10dp</item>
+                <item name="contentInsetStart">10dp</item>
+            </style>
+            <style name="viewParent">
+                <item name="android:layout_width">wrap_content</item>
+                <item name="android:layout_height">wrap_content</item>
+            </style>
+
+            <style name="BottomNavigationStyle">
+                <item name="android:textSize">8sp</item>
+                <item name="android:drawablePadding">16dp</item>
+            </style>
+            <style name="expandedBarTextStyle" parent="AppTheme">
+                <item name="android:textSize">0sp</item>
+                <item name="android:textColor">@android:color/transparent</item>
+            </style>
+
+            <style name="MyCardViewStyle" parent="AppTheme">
+            </style>-->
+
+
+    <!--
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">#ffff00</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LoginTextInputOuterFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+    <style name="LoginTextInputInnerFieldStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextInputLayoutSelectStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+    <style name="AutoCompleteTextViewSelectStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+    <style name="AutoCompleteTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+        <item name="android:inputType">textAutoComplete</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="AutoCompleteTextViewAutocompleteStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+        <item name="android:inputType">textAutoComplete</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">15dp</item>
+    </style>
+    <style name="TextViewConfirmTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli_black</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/backgroundApp</item>
+    </style>
+    <style name="TextViewConfirmValStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/muli_semibold</item>
+        <item name="android:textColor">@color/backgroundApp</item>
+    </style>
+    <style name="ViewConfirmLineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="ButtonGeneralStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColor">@color/backgroundApp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="ButtonGeneral2Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColor">@color/backgroundApp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="SubAccountImportItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+    <style name="ColorItemSquareStyle">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="ColorItemTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>-->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimuladorPrestamos">
+        <attr name="colorPrimary" format="reference|color" />
+        <attr name="colorOnPrimary" format="reference|color" />
+        <attr name="colorOnSecondary" format="reference|color" />
+        <attr name="colorSecondary" format="reference|color" />
+        <attr name="colorPrimaryContainer" format="reference|color" />
+        <attr name="colorOnPrimaryContainer" format="reference|color" />
+    </declare-styleable>
+</resources>

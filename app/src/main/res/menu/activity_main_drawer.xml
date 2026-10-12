@@ -1,0 +1,74 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/FullAccessFragment" android:icon="@drawable/ic_today_black_24dp"
+            android:title="Activar Full por hoy" />
+        <item android:id="@+id/SuggestionFragment" android:icon="@drawable/info"
+            android:title="Enviar sugerencia" />
+        <item android:id="@+id/SimulationHistoryFragment"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Historial de simulaciones" />
+        <item android:title="@string/title_setting">
+            <menu>
+                <item
+                    android:id="@+id/ConfiguracionFragment"
+                    android:icon="@drawable/ic_cog"
+                    android:title="@string/title_general" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/AboutFragment"
+            android:icon="@drawable/info"
+            android:title="@string/about" />
+    </group>
+</menu>
+
+    <!--
+                <item
+                    android:id="@+id/payFragment"
+                    android:icon="@drawable/ic_list_add"
+                    android:title="Registrar" />
+    <item android:title="Configuraciones">
+            <menu>
+                <item
+                    android:id="@+id/terminalFragment"
+                    android:icon="@drawable/ic_terminal"
+                    android:title="Terminal" />
+                <item
+                    android:id="@+id/descriptionsFragment"
+                    android:icon="@drawable/ic_file_text"
+                    android:title="Listas" />
+            </menu>
+        </item>
+    <item android:title="Transacciones">
+            <menu>
+                <item
+                    android:id="@+id/depositFragment"
+                    android:icon="@drawable/ic_pig"
+                    android:title="Abono" />
+                <item
+                    android:id="@+id/transferFragment"
+                    android:icon="@drawable/ic_tab"
+                    android:title="Transferencia" />
+            </menu>
+        </item>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/SuggestionFragment" android:icon="@drawable/info"
+            android:title="Enviar sugerencia" />
+        <item android:id="@+id/SimulationHistoryFragment"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Historial de simulaciones" />
+        <item android:title="Configuraciones">
+            <menu>
+                <item android:id="@+id/item_lists"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Lista" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:id="@+id/item_out"
+        android:icon="@drawable/ic_resource_switch"
+        android:title="Salir"
+        android:layout_gravity="bottom" />-->

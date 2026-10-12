@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.mocii.simuladorprestamos.ui.prestamo.CreditSimulatorFormFragment"
+        android:label="@string/title_credit_simulator"
+        tools:layout="@layout/fragment_credit_simulator_form">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_aConfiguracionFragment"
+            app:destination="@id/ConfiguracionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ConfiguracionFragment"
+        android:name="com.mocii.simuladorprestamos.ui.general.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting"/>
+
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="com.mocii.simuladorprestamos.ui.general.AboutFragment"
+        android:label="@string/about"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/SimulationHistoryFragment"
+        android:name="com.mocii.simuladorprestamos.ui.prestamo.SimulationHistoryFragment"
+        android:label="Historial de simulaciones" />
+    <fragment android:id="@+id/SuggestionFragment"
+        android:name="com.mocii.simuladorprestamos.ui.general.SuggestionFragment"
+        android:label="Sugerencias anónimas" />
+    <fragment android:id="@+id/FullAccessFragment"
+        android:name="com.mocii.simuladorprestamos.ui.general.FullAccessFragment"
+        android:label="Full por hoy" />
+</navigation>

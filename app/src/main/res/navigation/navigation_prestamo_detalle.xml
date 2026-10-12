@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buy_nav_graph"
+    app:startDestination="@id/prestamoDetalleFragment">
+    <fragment
+        android:id="@+id/prestamoDetalleFragment"
+        android:name="com.mocii.simuladorprestamos.ui.prestamo.CreditSimulatorDetailFragment"
+        android:label="@string/title_credit_simulator"
+        tools:layout="@layout/fragment_credit_simulator_detail" />
+</navigation>
